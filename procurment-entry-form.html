@@ -4,17 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="procurment.css">
     <title>Document</title>
 </head>
 
 <body>
+    <h2>Procurement Entry Form</h2>
+    <!-- procurment form  -->
     <form action="submit" method="post">
-        <fieldset>
+        <fieldset class="">
+            <!-- Legend for Supplier Info -->
             <legend>Supplier Information</legend>
             <label for="supplier-name">Supplier Name</label>
             <input type="text" id="supplier-name" name="supplier-name" placeholder="Enter Supplier Name" required><br>
             <label for="supplier-contact">Supplier Contact</label>
-            <input type="tel" id="supplier-contact" name="supplier-contact"><br>
+            <input type="tel" id="supplier-contact" name="supplier-contact" placeholder="Enter Supplier Contact"><br>
             <label for="purchase-date">Purchase Date</label>
             <input type="date" id="purchase-date" name="purchase-date" required><br>
             <label for="invoice-number">Invoice Number</label>
@@ -22,6 +26,7 @@
                 required><br>
         </fieldset>
         <fieldset>
+             <!-- Legend for Product Info -->
             <legend>Product Information</legend>
             <label for="product-name">Product Name</label>
             <input type="text" id="product-name" name="product-name" placeholder="Enter Product Name" required><br>
@@ -48,6 +53,7 @@
             <input type="number" id="total-amount" name="total-amount" required readonly>
         </fieldset>
         <fieldset>
+             <!-- Legend for Payment Info -->
             <legend>Payment Details</legend>
             <label for="payment-details" name="payment-details">Payment Detail</label><br>
             <input type="radio" name="payment-details" value="Cash">Cash
