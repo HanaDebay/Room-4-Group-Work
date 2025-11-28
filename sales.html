@@ -1,0 +1,72 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sales.css">
+
+</head>
+<body>
+      <h2> sales entry form</h2>
+
+
+    <!--sale id/receipt number-->
+<fieldset> <legend> customer information</legend>
+            <label for="sale_id">sales id/receipt number</label>
+            <input type="text" id="sale_id" name="sale_id" placeholder="Enter receipt number" readonly><br>
+        <label for="sale_date">sale date and time</label>
+        <input type="date" id="sale_date" placeholder="Enter sale date and time" required><br>
+
+<label for="customer_name"> customer name</label>
+<input type="text"  id="customer_name" placeholder="enter customer name "><br>
+<label for="customer_phone">customer phone</label>
+<input type="tel" id="customer_phone" placeholder="enter customer tel no"><br>
+<label for="customer_email">customer email</label>
+<input type="email" id="customer_email" placeholder="enter customer email"><br>
+<label for="customer_type"> customer type</label>
+<input type="radio" name="customer_type" value="walk-in">walk-in
+<input type="radio" name="customer_type" value="regular">regular
+<input type="radio" name="customer_type" value="credit customer">credit customer<br>
+</fieldset> 
+<fieldset> <legend> product  information</legend>
+<label for="quantity_sold">quantity sold</label>
+<input type="input" id="quantity_sold" placeholder="enter quantity_sold"><br>
+<label for="unitPrice">Unit Price</label>
+<input type="number" id="unitprice" name="unityprice" step="0.01" placeholder="enter unit price"required><br>
+<label for="discount-percentage">discount-percentage</label>
+<input type="number" id="discount-percentage" name="discount-percentage" min="0" max="100" placeholder="enter discount percentage"><br>
+<label for="sub-total" name="subtotal">Sub Total</label>
+<input type="number" id="sub-total" name="sub-total" required readonly><br>
+<label for="tax-or-vat" name="tax-or-vat">Tax/VAT</label>
+<input type="number" id="tax-or-vat" name="tax-or-vat" readonly required><br>
+<label for="total-amount" name="total-amount">Total Amount</label>
+<input type="number" id="total-amount" name="total-amount" required readonly>
+</fieldset>
+<fieldset> <legend> payment details</legend>
+<label for="payment-method" name="payment-method">payment method</label><br>
+<input type="radio" name="payment-method" value="Cash">Cash
+<input type="radio" name="payment-method" value="Mobile Money">Mobile Money
+<input type="radio" name="payment-method" value="Credit Card">Credit Card
+<input type="radio" name="payment-method" value="Bank Transfer">Bank Transfer<br>
+<fieldset> <legend> sales person details</legend>
+<label for="sales-person-name"> sales person name</label>
+<input type="text" id="sales-person-name" placeholder="enter sales person name" required><br>
+<label for="sales-person-id"> sales person id</label>
+<input type="text" id="sales-person-id" placeholder="enter sales person id" required><br>
+<fieldset> <legend> additional notes</legend>
+<label for="additional-notes"> additional notes</label><br>
+<textarea id="additional-notes" name="additional-notes" rows="4" cols="50" placeholder="enter additional notes here..."></textarea><br>
+<button type="submit"> submit </button>
+<button type="reset"> reset </button>
+
+
+
+
+</fieldset>
+
+
+    
+</body>
+</htm
+

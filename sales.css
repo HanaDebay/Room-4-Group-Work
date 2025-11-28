@@ -1,0 +1,108 @@
+/* =========================================================
+   SALES ENTRY FORM THEME — Dark Green + Gold
+   ========================================================= */
+
+/* Global page styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:burlywood;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Main title */
+h2 {
+    text-align: center;
+    color:gray;
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* Fieldset container */
+fieldset {
+    background: gray;
+    border-left: 6px solid gold;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* Section titles */
+legend {
+    background: whitesmoke;
+    color: gold;
+    padding: 8px 15px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    color: white;
+    display: block;
+    margin-top: 12px;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="date"],
+textarea {
+    width: 96%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Radio buttons inline */
+input[type="radio"] {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+/* Textarea resizing */
+textarea {
+    resize: vertical;
+}
+
+/* =============================
+   BUTTON STYLING (ACTION-READY)
+   ============================= */
+button {
+    padding: 12px 25px;
+    font-size: 17px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Submit button */
+button[type="submit"] {
+    background:darkcyand;
+    color: gold;
+}
+
+button[type="submit"]:hover {
+    background:darkgray;
+}
+
+/* Reset button */
+button[type="reset"] {
+    background:darkmagenta;
+    color: red;
+}
+
+button[type="reset"]:hover {
+    background:whitesmoke;
+}
